@@ -1,0 +1,25 @@
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.container {
+  text-align: center;
+  border: 1px solid grey;
+}
+
+.jukebox {
+  padding-bottom: 100px; 
+}
+
+	
